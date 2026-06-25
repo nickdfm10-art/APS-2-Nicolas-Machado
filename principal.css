@@ -1,0 +1,37 @@
+/* Corpo da página */
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Título principal */
+h1{
+    color: #C0262C;
+    font-size: 2.5em;
+    border-bottom: thin solid #C0262C;
+    padding-bottom: 7px;
+}
+
+/* Subtítulo */
+h2{
+    font-size: 1.75em;
+}
+
+/* Imagens */
+img{
+    border: 1px solid #C0262C;
+}
+
+/* Parágrafos */
+p{
+    font-size: 1.1em;
+    line-height: 1.3em;
+    text-align: justify;
+}
+
+/* Primeira linha dos parágrafos */
+p:first-line{
+    font-size: 1.17em;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-style: italic;
+}

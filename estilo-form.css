@@ -1,0 +1,71 @@
+/* Baseado nas referências do slide  */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/form1_back.jpg'); /* Crie a pasta img e adicione a imagem referenciada [cite: 523] */
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin: 20px 50px;
+}
+
+h1 {
+    color: #909; /* Títulos  */
+    text-align: right;
+    border-bottom: 2px solid #ccc;
+}
+
+main {
+    display: flex;
+    margin-top: 30px;
+}
+
+.lateral h2 {
+    color: #909; /* Títulos  */
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 3em;
+    margin-right: 20px;
+    letter-spacing: 5px;
+}
+
+form {
+    flex-grow: 1;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+legend {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+label {
+    width: 120px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    flex-grow: 1;
+    background-color: #FCC; /* Caixas  */
+    border: 1px solid #FCC; /* Borda  */
+    padding: 10px;
+    outline: none;
+}
+
+button {
+    background-color: #FCC; /* Botão  */
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+}
